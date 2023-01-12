@@ -29,9 +29,9 @@ def GAerror(_list2,PEIZHI1,PEIZHI2,N):
         if (obj['functions']['function'] == 'mul'):
             # print('jisuanleixing',PEIZHI2[i])
             obj['functions']['function'] = MUL8LIP[PEIZHI2[i]]
-    MED = laplacecomputing.laplseerrorcomputing(zhongjianlist)
-    return MED
+    error = laplacecomputing.laplseerrorcomputing(zhongjianlist)
+    return error
 
 def GAerror1(_list):
-    MED = laplacecomputing.laplseerrorcomputing(_list)
-    return MED
+    error = laplacecomputing.laplseerrorcomputing(_list)
+    return error
