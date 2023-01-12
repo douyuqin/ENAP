@@ -1,0 +1,100 @@
+#LAB-STICC-UBS, 2008
+#Date: Wed Apr 13 10:15:05 2022
+
+#Entity : sharpen
+source(sharpen_start) {
+	targets const_5,
+	e,
+	d,
+	b,
+	f,
+	h;
+}
+#Constant declaration
+constant(const_5) {
+	bitwidth 32;
+	signed 1;
+	value 5;
+	bank 0;
+	address 0;
+	hardwire 1;
+}
+#Input declaration
+input(e) {
+	bitwidth 32;
+	signed 1;
+}
+input(d) {
+	bitwidth 32;
+	signed 1;
+}
+input(b) {
+	bitwidth 32;
+	signed 1;
+}
+input(f) {
+	bitwidth 32;
+	signed 1;
+}
+input(h) {
+	bitwidth 32;
+	signed 1;
+}
+#Output declaration
+output(out) {
+	bitwidth 32;
+	signed 1;
+}
+#Variable declaration
+variable(e5) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+temporary(sharpen_1685) {
+	bitwidth 32;
+	signed 1;
+}
+variable(r1) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(r2) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(r3) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+operation(op0)  {
+	function mul;
+	read e,const_5;
+	write e5;
+}
+operation(op1)  {
+	function add;
+	read d,b;
+	write r1;
+}
+operation(op2)  {
+	function add;
+	read r1,r2;
+	write r3;
+}
+operation(op3)  {
+	function add;
+	read f,h;
+	write r2;
+}
+operation(op4)  {
+	function sub;
+	read e5,r3;
+	write r;
+}
+sink(sharpen_end) {
+	targets out;
+}

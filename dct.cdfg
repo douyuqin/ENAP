@@ -1,0 +1,1003 @@
+#LAB-STICC-UBS, 2008
+#Date: Mon Dec 19 19:31:57 2022
+
+#Entity : dct
+source(dct_start) {
+	targets const_6,
+	const_25,
+	cosLPAREN0RPAREN,
+	cosLPAREN1RPAREN,
+	cosLPAREN2RPAREN,
+	cosLPAREN3RPAREN,
+	cosLPAREN4RPAREN,
+	cosLPAREN5RPAREN,
+	cosLPAREN6RPAREN,
+	cosLPAREN7RPAREN,
+	cosLPAREN8RPAREN,
+	cosLPAREN9RPAREN,
+	cosLPAREN10RPAREN,
+	cosLPAREN11RPAREN,
+	cosLPAREN12RPAREN,
+	cosLPAREN13RPAREN,
+	cosLPAREN14RPAREN,
+	cosLPAREN15RPAREN,
+	cosLPAREN16RPAREN,
+	cosLPAREN17RPAREN,
+	cosLPAREN18RPAREN,
+	cosLPAREN19RPAREN,
+	cosLPAREN20RPAREN,
+	cosLPAREN21RPAREN,
+	cosLPAREN22RPAREN,
+	cosLPAREN23RPAREN,
+	cosLPAREN24RPAREN,
+	cosLPAREN25RPAREN,
+	cosLPAREN26RPAREN,
+	cosLPAREN27RPAREN,
+	cosLPAREN28RPAREN,
+	cosLPAREN29RPAREN,
+	cosLPAREN30RPAREN,
+	cosLPAREN31RPAREN,
+	x1,
+	x2,
+	x3,
+	x4,
+	x5,
+	x6,
+	x7,
+	x8;
+}
+#Constant declaration
+constant(const_6) {
+	bitwidth 32;
+	signed 1;
+	value 6;
+	bank 0;
+	address 0;
+	hardwire 1;
+}
+constant(const_25) {
+	bitwidth 32;
+	signed 1;
+	value 25;
+	bank 0;
+	address 1;
+	hardwire 1;
+}
+constant(cosLPAREN0RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+	bank 0;
+	address 2;
+	hardwire 1;
+}
+constant(cosLPAREN1RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 5;
+	bank 0;
+	address 3;
+	hardwire 1;
+}
+constant(cosLPAREN2RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 10;
+	bank 0;
+	address 4;
+	hardwire 1;
+}
+constant(cosLPAREN3RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 15;
+	bank 0;
+	address 5;
+	hardwire 1;
+}
+constant(cosLPAREN4RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 19;
+	bank 0;
+	address 6;
+	hardwire 1;
+}
+constant(cosLPAREN5RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 24;
+	bank 0;
+	address 7;
+	hardwire 1;
+}
+constant(cosLPAREN6RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 28;
+	bank 0;
+	address 8;
+	hardwire 1;
+}
+constant(cosLPAREN7RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 32;
+	bank 0;
+	address 9;
+	hardwire 1;
+}
+constant(cosLPAREN8RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 36;
+	bank 0;
+	address 10;
+	hardwire 1;
+}
+constant(cosLPAREN9RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 39;
+	bank 0;
+	address 11;
+	hardwire 1;
+}
+constant(cosLPAREN10RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 42;
+	bank 0;
+	address 12;
+	hardwire 1;
+}
+constant(cosLPAREN11RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 45;
+	bank 0;
+	address 13;
+	hardwire 1;
+}
+constant(cosLPAREN12RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 47;
+	bank 0;
+	address 14;
+	hardwire 1;
+}
+constant(cosLPAREN13RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 49;
+	bank 0;
+	address 15;
+	hardwire 1;
+}
+constant(cosLPAREN14RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 50;
+	bank 0;
+	address 16;
+	hardwire 1;
+}
+constant(cosLPAREN15RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 51;
+	bank 0;
+	address 17;
+	hardwire 1;
+}
+constant(cosLPAREN16RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 51;
+	bank 0;
+	address 18;
+	hardwire 1;
+}
+constant(cosLPAREN17RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 51;
+	bank 0;
+	address 19;
+	hardwire 1;
+}
+constant(cosLPAREN18RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 50;
+	bank 0;
+	address 20;
+	hardwire 1;
+}
+constant(cosLPAREN19RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 49;
+	bank 0;
+	address 21;
+	hardwire 1;
+}
+constant(cosLPAREN20RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 47;
+	bank 0;
+	address 22;
+	hardwire 1;
+}
+constant(cosLPAREN21RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 45;
+	bank 0;
+	address 23;
+	hardwire 1;
+}
+constant(cosLPAREN22RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 42;
+	bank 0;
+	address 24;
+	hardwire 1;
+}
+constant(cosLPAREN23RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 39;
+	bank 0;
+	address 25;
+	hardwire 1;
+}
+constant(cosLPAREN24RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 36;
+	bank 0;
+	address 26;
+	hardwire 1;
+}
+constant(cosLPAREN25RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 32;
+	bank 0;
+	address 27;
+	hardwire 1;
+}
+constant(cosLPAREN26RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 28;
+	bank 0;
+	address 28;
+	hardwire 1;
+}
+constant(cosLPAREN27RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 24;
+	bank 0;
+	address 29;
+	hardwire 1;
+}
+constant(cosLPAREN28RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 19;
+	bank 0;
+	address 30;
+	hardwire 1;
+}
+constant(cosLPAREN29RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 14;
+	bank 0;
+	address 31;
+	hardwire 1;
+}
+constant(cosLPAREN30RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 10;
+	bank 0;
+	address 32;
+	hardwire 1;
+}
+constant(cosLPAREN31RPAREN) {
+	bitwidth 32;
+	signed 1;
+	value 5;
+	bank 0;
+	address 33;
+	hardwire 1;
+}
+#Input declaration
+input(x1) {
+	bitwidth 32;
+	signed 1;
+}
+input(x2) {
+	bitwidth 32;
+	signed 1;
+}
+input(x3) {
+	bitwidth 32;
+	signed 1;
+}
+input(x4) {
+	bitwidth 32;
+	signed 1;
+}
+input(x5) {
+	bitwidth 32;
+	signed 1;
+}
+input(x6) {
+	bitwidth 32;
+	signed 1;
+}
+input(x7) {
+	bitwidth 32;
+	signed 1;
+}
+input(x8) {
+	bitwidth 32;
+	signed 1;
+}
+#Output declaration
+output(XLPAREN0RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN1RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN2RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN3RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN4RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN5RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN6RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(XLPAREN7RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+#Variable declaration
+variable(tmp) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000001) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000002) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000003) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000001) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000002) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000004) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000005) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000006) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000007) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000003) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000004) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000005) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000008) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000009) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000010) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000011) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000006) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000007) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000008) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000012) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000013) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000014) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000015) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000009) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000010) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000011) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000016) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000017) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000018) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000019) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000012) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000013) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000014) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000020) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000021) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000022) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000023) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000015) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000016) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000017) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000024) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000025) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000026) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000027) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000018) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000019) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000020) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000028) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000029) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000030) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(tmp000031) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000021) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000022) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(s000023) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+temporary(dct_1686) {
+	bitwidth 32;
+	signed 1;
+}
+operation(op0)  {
+	function mul;
+	read x1,cosLPAREN0RPAREN;
+	write tmp;
+}
+operation(op1)  {
+	function add;
+	read x1,cosLPAREN1RPAREN;
+	write tmp000001;
+}
+operation(op2)  {
+	function mul;
+	read x1,cosLPAREN2RPAREN;
+	write tmp000002;
+}
+operation(op3)  {
+	function add;
+	read x1,cosLPAREN3RPAREN;
+	write tmp000003;
+}
+operation(op4)  {
+	function mul;
+	read tmp000003,tmp;
+	write s;
+}
+operation(op5)  {
+	function add;
+	read s,tmp000002;
+	write s000001;
+}
+operation(op6)  {
+	function mul;
+	read s000001,tmp000003;
+	write s000002;
+}
+operation(op7)  {
+	function add;
+	read s000002,const_6;
+	write XLPAREN0RPAREN;
+}
+operation(op8)  {
+	function mul;
+	read x1,cosLPAREN4RPAREN;
+	write tmp000004;
+}
+operation(op9)  {
+	function add;
+	read x2,cosLPAREN5RPAREN;
+	write tmp000005;
+}
+operation(op10)  {
+	function mul;
+	read x2,cosLPAREN6RPAREN;
+	write tmp000006;
+}
+operation(op11)  {
+	function add;
+	read x2,cosLPAREN7RPAREN;
+	write tmp000007;
+}
+operation(op12)  {
+	function mul;
+	read tmp000005,tmp000006;
+	write s000003;
+}
+operation(op13)  {
+	function add;
+	read s000003,tmp000004;
+	write s000004;
+}
+operation(op14)  {
+	function mul;
+	read s000004,tmp000007;
+	write s000005;
+}
+operation(op15)  {
+	function add;
+	read s000005,const_25;
+	write XLPAREN1RPAREN;
+}
+operation(op16)  {
+	function mul;
+	read x3,cosLPAREN8RPAREN;
+	write tmp000008;
+}
+operation(op17)  {
+	function add;
+	read x3,cosLPAREN9RPAREN;
+	write tmp000009;
+}
+operation(op18)  {
+	function mul;
+	read x3,cosLPAREN10RPAREN;
+	write tmp000010;
+}
+operation(op19)  {
+	function add;
+	read x3,cosLPAREN11RPAREN;
+	write tmp000011;
+}
+operation(op20)  {
+	function mul;
+	read tmp000009,tmp000008;
+	write s000006;
+}
+operation(op21)  {
+	function add;
+	read s000006,tmp000010;
+	write s000007;
+}
+operation(op22)  {
+	function mul;
+	read s000007,tmp000011;
+	write s000008;
+}
+operation(op23)  {
+	function add;
+	read s000008,const_6;
+	write XLPAREN2RPAREN;
+}
+operation(op24)  {
+	function mul;
+	read x4,cosLPAREN12RPAREN;
+	write tmp000012;
+}
+operation(op25)  {
+	function add;
+	read x4,cosLPAREN13RPAREN;
+	write tmp000013;
+}
+operation(op26)  {
+	function mul;
+	read x4,cosLPAREN14RPAREN;
+	write tmp000014;
+}
+operation(op27)  {
+	function add;
+	read x4,cosLPAREN15RPAREN;
+	write tmp000015;
+}
+operation(op28)  {
+	function mul;
+	read tmp000013,tmp000012;
+	write s000009;
+}
+operation(op29)  {
+	function add;
+	read s000009,tmp000014;
+	write s000010;
+}
+operation(op30)  {
+	function mul;
+	read s000010,tmp000015;
+	write s000011;
+}
+operation(op31)  {
+	function add;
+	read s000011,const_25;
+	write XLPAREN3RPAREN;
+}
+operation(op32)  {
+	function mul;
+	read x5,cosLPAREN16RPAREN;
+	write tmp000016;
+}
+operation(op33)  {
+	function add;
+	read x5,cosLPAREN17RPAREN;
+	write tmp000017;
+}
+operation(op34)  {
+	function mul;
+	read x5,cosLPAREN18RPAREN;
+	write tmp000018;
+}
+operation(op35)  {
+	function add;
+	read x5,cosLPAREN19RPAREN;
+	write tmp000019;
+}
+operation(op36)  {
+	function mul;
+	read tmp000017,tmp000016;
+	write s000012;
+}
+operation(op37)  {
+	function add;
+	read s000012,tmp000018;
+	write s000013;
+}
+operation(op38)  {
+	function mul;
+	read s000013,tmp000019;
+	write s000014;
+}
+operation(op39)  {
+	function add;
+	read s000014,const_6;
+	write XLPAREN4RPAREN;
+}
+operation(op40)  {
+	function mul;
+	read x6,cosLPAREN20RPAREN;
+	write tmp000020;
+}
+operation(op41)  {
+	function add;
+	read x6,cosLPAREN21RPAREN;
+	write tmp000021;
+}
+operation(op42)  {
+	function mul;
+	read x6,cosLPAREN22RPAREN;
+	write tmp000022;
+}
+operation(op43)  {
+	function add;
+	read x6,cosLPAREN23RPAREN;
+	write tmp000023;
+}
+operation(op44)  {
+	function mul;
+	read tmp000021,tmp000020;
+	write s000015;
+}
+operation(op45)  {
+	function add;
+	read s000015,tmp000022;
+	write s000016;
+}
+operation(op46)  {
+	function mul;
+	read s000016,tmp000023;
+	write s000017;
+}
+operation(op47)  {
+	function add;
+	read s000017,const_25;
+	write XLPAREN5RPAREN;
+}
+operation(op48)  {
+	function mul;
+	read x7,cosLPAREN24RPAREN;
+	write tmp000024;
+}
+operation(op49)  {
+	function add;
+	read x7,cosLPAREN25RPAREN;
+	write tmp000025;
+}
+operation(op50)  {
+	function mul;
+	read x7,cosLPAREN26RPAREN;
+	write tmp000026;
+}
+operation(op51)  {
+	function add;
+	read x7,cosLPAREN27RPAREN;
+	write tmp000027;
+}
+operation(op52)  {
+	function mul;
+	read tmp000025,tmp000024;
+	write s000018;
+}
+operation(op53)  {
+	function add;
+	read s000018,tmp000026;
+	write s000019;
+}
+operation(op54)  {
+	function mul;
+	read s000019,tmp000027;
+	write s000020;
+}
+operation(op55)  {
+	function add;
+	read s000020,const_6;
+	write XLPAREN6RPAREN;
+}
+operation(op56)  {
+	function mul;
+	read x8,cosLPAREN28RPAREN;
+	write tmp000028;
+}
+operation(op57)  {
+	function add;
+	read x8,cosLPAREN29RPAREN;
+	write tmp000029;
+}
+operation(op58)  {
+	function mul;
+	read x8,cosLPAREN30RPAREN;
+	write tmp000030;
+}
+operation(op59)  {
+	function add;
+	read x8,cosLPAREN31RPAREN;
+	write tmp000031;
+}
+operation(op60)  {
+	function mul;
+	read tmp000029,tmp000028;
+	write s000021;
+}
+operation(op61)  {
+	function add;
+	read s000021,tmp000030;
+	write s000022;
+}
+operation(op62)  {
+	function mul;
+	read s000022,tmp000031;
+	write s000023;
+}
+operation(op63)  {
+	function add;
+	read s000023,const_25;
+	write dct_1686;
+}
+}
+sink(dct_end) {
+	targets XLPAREN0RPAREN,
+	XLPAREN1RPAREN,
+	XLPAREN2RPAREN,
+	XLPAREN3RPAREN,
+	XLPAREN4RPAREN,
+	XLPAREN5RPAREN,
+	XLPAREN6RPAREN,
+	XLPAREN7RPAREN;
+}
