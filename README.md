@@ -1,4 +1,9 @@
 # ENAP
+ENAP: An Efficient Number-Aware Pruning Framework for Design Space Exploration of Approximate Configurations
+
+ENAP differs from the general search framework in that it performs a search space pruning before DSE, and it is the first to perform search space pruning from the perspective of constraining the number of approximation units, which
+can improve the efficiency of DSE. The purpose of the ENAP technique is to ideally find the best set of approximate configurations to minimize energy consumption under the error constraint.
+
 Requirements:
 
 (1) The application needs to generate CDFG files through GAUT[1].
